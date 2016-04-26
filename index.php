@@ -3,7 +3,9 @@
 <head>
 	<title>Maxence Busson | Front-End Developer</title>
 	 <link rel="stylesheet" href="styles.css">
+	 <link rel="stylesheet" href="hover.css">
 	 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 </head>
 <body>
 	<div id="loader-wrapper">
@@ -19,18 +21,15 @@
 	</div>
 	<header  class="element">
 		<h2>Front-End Web Development</h2>
+			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank"><div id="gh" class="icon-forward element">
+				On GitHub
+			</div></a>
 	</header>
 
 	<div id="network">
-		<a style="display:block" href="carousel/index.html">
+		<a style="display:block" href="javascript:" onclick="window.open('http://codepen.io/mbusson/');" target="_blank">
 			<div class="netw element">
 				<div id="cp"></div>
-			</div>
-		</a>
-		<div id="content"></div>
-		<a style="display:block" href="carousel/index.html">
-			<div class="netwL element">
-				<div id="git"></div>
 			</div>
 		</a>
 	</div>
