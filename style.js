@@ -35,7 +35,6 @@ $(document).ready(function(){
 
 
 
-
 // --- GRADIENT ---
 
 	var $div = document.getElementById("gradient");
