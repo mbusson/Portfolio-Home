@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Maxence Busson | Front-End Developer</title>
+	<title>Maxence Busson | Front-End Web & Software Developer</title>
+	 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 	 <link rel="stylesheet" href="styles.css">
 	 <link rel="stylesheet" href="hover.css">
 	 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
