@@ -66,7 +66,7 @@
 			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
 			<div class="descr"> 
 				<p class="descr-text">
-					Basic semi-responsive website<br>
+					Basic semi-responsive static website<br>
 					with a carousel, using HMTL5, CSS3<br>
 					and Javascript/jQuery.
 				</p> 
