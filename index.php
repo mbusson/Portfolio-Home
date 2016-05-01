@@ -23,7 +23,7 @@
 	<header  class="element">
 		<h2>Front-End Web Development</h2>
 			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank"><div id="gh" class="icon-forward element">
-				On GitHub
+				View GitHub
 			</div></a>
 	</header>
 
@@ -38,15 +38,39 @@
 	<div id="sites">
 		<a style="display:block" href="carousel/index.html"><div class="site element" id="site1">
 			<img class="thumbnail" src="images/site1.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" aria-hidden="true"></i></div><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
+			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Lorem ipsum blablabla etc. trying to get the<br>
+					line length ain't no easy thing to do baby but<br>
+					I'm slowly gettin' there, ain't I?
+				</p> 
+			</div>
 		</div></a>
 		<a style="display:block" href="carousel/index.html"><div class="site element" id="site2">
 			<img class="thumbnail" src="images/site1.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" aria-hidden="true"></i></div><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
+			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Lorem ipsum blablabla etc. trying to get the<br>
+					line length ain't no easy thing to do baby but<br>
+					I'm slowly gettin' there, ain't I?
+				</p> 
+			</div>
 		</div></a>
 		<a style="display:block" href="carousel/index.html"><div class="site element" id="site3">
 			<img class="thumbnail" src="images/site1.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" aria-hidden="true"></i></div><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i></div><br>
+			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Basic semi-responsive website<br>
+					with a carousel, using HMTL5, CSS3<br>
+					and Javascript/jQuery.
+				</p> 
+			</div>
 		</div></a>
 	</div>
 
