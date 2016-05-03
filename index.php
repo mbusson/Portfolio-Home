@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Two-Sided Toggle Menu</title>
+	<title>Maxence Busson | Front-End Web & Software Developer</title>
 	 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 	 <link rel="stylesheet" href="styles.css">
+	 <link rel="stylesheet" href="hover.css">
 	 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+	<div id="loader-wrapper">
+	    <div id="loader"></div>
+	    <div class="loader-section section-left"></div>
+	    <div class="loader-section section-right"></div>
+	</div>
+	<div id="gradient"></div>
+	<div id="bg-ol"></div>
 
-	<div id="select-box">
-		<a href="#" id="rent" class="btn btn-fx">
-			Find a place
-		</a>
-		<a href="#" id="rent-out" class="btn btn-fx">
-			Rent out
+	<div id="logo" class="element">
+		<h1>Maxence Busson</h1>
+	</div>
+	<header  class="element">
+		<h2>Front-End Web Development</h2>
+			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank"><div id="gh" class="icon-forward element">
+				View GitHub
+			</div></a>
+	</header>
+
+	<div id="network">
+		<a style="display:block" href="javascript:" onclick="window.open('http://codepen.io/mbusson/');" target="_blank">
+			<div class="netw element">
+				<div id="cp"></div>
+			</div>
 		</a>
 	</div>
 
-	<div id="rent-menu">
-		<div class="spacer-big"></div>
-		<a href="#msg"><div class="rent-menu"> <span class='rent-txt menu-txt'>Messages</span> </div></a>
-		<div class="spacer"></div>
-		<a href="#wsl"><div class="rent-menu"> <span class='rent-txt menu-txt'>Wishlist</span> </div></a>
-		<div class="spacer"></div>
-		<a href="#pfl"><div class="rent-menu"> <span class='rent-txt menu-txt'>My profile</span> </div></a>
-		<div class="spacer"></div>
-		<a href="#stg"><div class="rent-menu"> <span class='rent-txt menu-txt'>Search settings</span> </div></a>
-		<div class="spacer"></div>
-		<div class="exit rent-menu-exit"> <span class='rent-txt menu-txt'>Exit this menu</span> </div>
-		<div class="spacer-big"></div>
-	</div>
-
-	<div id="rent-out-menu">
-		<div class="spacer-big"></div>
-		<a href="#rgs"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>Register my listing</span> </div></a>
-		<div class="spacer"></div>
-		<a href="#msg"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>Messages</span> </div></a>
-		<div class="spacer"></div>
-		<a href="#pfl"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>My profile</span> </div></a>
-		<div class="spacer"></div>
-		<a href="#tos"><div class="rent-out-menu"> <span class='rent-out-txt menu-txt'>Terms of service</span> </div></a>
-		<div class="spacer"></div>
-		<div class="exit rent-out-menu-exit"> <span class='rent-out-txt menu-txt'>Exit this menu</span> </div>
-		<div class="spacer-big"></div>
+	<div id="sites">
+		<a style="display:block" href="carousel/index.html"><div class="site element" id="site1">
+			<img class="thumbnail" src="images/site1.jpg"><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
+			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Lorem ipsum dolor sit amet, consectetur<br>
+					adipiscing elit. Aenean efficitur fermentum<br>
+					volutpat. Nulla faucibus dui vel turpis.
+				</p> 
+			</div>
+		</div></a>
+		<a style="display:block" href="carousel/index.html"><div class="site element" id="site2">
+			<img class="thumbnail" src="images/site1.jpg"><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
+			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Lorem ipsum dolor sit amet, consectetur<br>
+					adipiscing elit. Aenean efficitur fermentum<br>
+					volutpat. Nulla faucibus dui vel turpis.
+				</p> 
+			</div>
+		</div></a>
+		<a style="display:block" href="carousel/index.html"><div class="site element" id="site3">
+			<img class="thumbnail" src="images/site1.jpg"><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i></div><br>
+			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Basic semi-responsive static website<br>
+					with a carousel, using HMTL5, CSS3<br>
+					and Javascript/jQuery.
+				</p> 
+			</div>
+		</div></a>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="style.js"></script>
+	<script src="kcode.js"></script>
 </body>
 </html>
