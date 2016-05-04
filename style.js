@@ -58,7 +58,10 @@ $(document).ready(function(){
 
 	function startFinalAnimation(){
     	var fa = new TimelineLite();
-			fa.staggerFrom('.tagline', 0.3, {delay: 1, rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.05);
+    		fa.from('.mbusson', 2, {opacity:0, scale:0, ease: Power3.easeOut, y: 0 });
+			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.05);
+			fa.from('.netw', 0.5, {opacity:0, scale:0, ease: Power3.easeOut, y: 0 });
+			fa.from('#cp', 0.25, {opacity:0, scale:0, ease: Power3.easeOut, y: 0 });
 	};
 
 	startFinalAnimation();

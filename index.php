@@ -17,7 +17,7 @@
 	<div id="bg-ol"></div>
 
 	<div id="logo" class="element">
-		<h1>Maxence Busson</h1>
+		<h1 class='mbusson'>Maxence Busson</h1>
 	</div>
 	<header  class="element">
 		<h2>
