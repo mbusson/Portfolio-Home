@@ -58,6 +58,10 @@ header {
 	box-shadow: 0 1px 1px 0 #000000;
 	z-index: 3;
 }
+.tagline {
+    display:inline-block;
+    line-spacing: 0;
+}
 
 h1 {
     color: black;
@@ -149,6 +153,12 @@ img.lang-img {
     margin: 0 5px;
     width: 45%;
     height: auto;
+    padding: 0;
+}
+img.gsap {
+    display: inline-block;
+    margin: 0 5px;
+    width: auto;
     padding: 0;
 }
 .descr {

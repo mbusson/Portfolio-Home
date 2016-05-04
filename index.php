@@ -20,7 +20,33 @@
 		<h1>Maxence Busson</h1>
 	</div>
 	<header  class="element">
-		<h2>Front-End Web Development</h2>
+		<h2>
+			<div class='tagline'>F</div><!--
+			--><div class='tagline'>r</div><!--
+			--><div class='tagline'>o</div><!--
+			--><div class='tagline'>n</div><!--
+			--><div class='tagline'>t</div><!--
+			--><div class='tagline'>-</div><!--
+			--><div class='tagline'>E</div><!--
+			--><div class='tagline'>n</div><!--
+			--><div class='tagline'>d</div><!--
+			--><div class='tagline'> </div>
+			<div class='tagline'>W</div><!--
+			--><div class='tagline'>e</div><!--
+			--><div class='tagline'>b</div><!--
+			--><div class='tagline'> </div>
+			<div class='tagline'>D</div><!--
+			--><div class='tagline'>e</div><!--
+			--><div class='tagline'>v</div><!--
+			--><div class='tagline'>e</div><!--
+			--><div class='tagline'>l</div><!--
+			--><div class='tagline'>o</div><!--
+			--><div class='tagline'>p</div><!--
+			--><div class='tagline'>m</div><!--
+			--><div class='tagline'>e</div><!--
+			--><div class='tagline'>n</div><!--
+			--><div class='tagline'>t</div>
+		</h2>
 			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank"><div id="gh" class="icon-forward element">
 				View GitHub
 			</div></a>
@@ -49,18 +75,6 @@
 		</div></a>
 		<a style="display:block" href="carousel/index.html"><div class="site element" id="site2">
 			<img class="thumbnail" src="images/site1.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
-			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
-			<div class="descr"> 
-				<p class="descr-text">
-					Lorem ipsum dolor sit amet, consectetur<br>
-					adipiscing elit. Aenean efficitur fermentum<br>
-					volutpat. Nulla faucibus dui vel turpis.
-				</p> 
-			</div>
-		</div></a>
-		<a style="display:block" href="carousel/index.html"><div class="site element" id="site3">
-			<img class="thumbnail" src="images/site1.jpg"><br><br>
 			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i></div><br>
 			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
 			<div class="descr"> 
@@ -71,8 +85,21 @@
 				</p> 
 			</div>
 		</div></a>
+		<a style="display:block" href="animated-welcome/index.php"><div class="site element" id="site3">
+			<img class="thumbnail" src="images/site2.jpg"><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
+			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Animated responsive splash screen using<br>
+					HMTL5, CSS3, Javascript/jQuery<br>
+					and GSAP (Greensock).
+				</p> 
+			</div>
+		</div></a>
 	</div>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="style.js"></script>
 	<script src="kcode.js"></script>
