@@ -58,13 +58,23 @@ $(document).ready(function(){
 
 	function startFinalAnimation(){
     	var fa = new TimelineLite();
-    		fa.from('.mbusson', 2, {opacity:0, scale:0, ease: Power3.easeOut, y: 0 });
-			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.05);
-			fa.from('.netw', 0.5, {opacity:0, scale:0, ease: Power3.easeOut, y: 0 });
-			fa.from('#cp', 0.25, {opacity:0, scale:0, ease: Power3.easeOut, y: 0 });
+    		fa.from('.mbusson', 1, {scale:0.5, ease: Power3.easeOut, y: 0 });
+			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.025);
+			fa.from('.netw', 0.5, { top: '-220px'});
 	};
 
 	startFinalAnimation();
+
+	$('#network .netw').mouseenter(function() {
+		$(this).css({
+			top: "-80px"
+		})
+	});
+	$('#network .netw').mouseleave(function() {
+		$(this).css({
+			top: "-110px"
+		})
+	});
 
 // thumbnail effects
 
@@ -74,7 +84,6 @@ $(document).ready(function(){
 	$('#sites .site').mouseleave(function() {
 		$(this).children('.thumbnail').removeClass('brighten');
 	});
-
 
 
 

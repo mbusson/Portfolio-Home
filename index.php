@@ -61,19 +61,31 @@
 	</div>
 
 	<div id="sites">
-		<a style="display:block" href="carousel/index.html"><div class="site element" id="site1">
-			<img class="thumbnail" src="images/site1.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
-			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+		<a style="display:block" href="animated-welcome/index.php"><div class="site element" id="site1">
+			<img class="thumbnail" src="images/site2.jpg"><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
+			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
 			<div class="descr"> 
 				<p class="descr-text">
-					Lorem ipsum dolor sit amet, consectetur<br>
-					adipiscing elit. Aenean efficitur fermentum<br>
-					volutpat. Nulla faucibus dui vel turpis.
+					Splash screen animation using<br>
+					HMTL5, CSS3, Javascript/jQuery<br>
+					and GSAP (Greensock).
 				</p> 
 			</div>
 		</div></a>
-		<a style="display:block" href="carousel/index.html"><div class="site element" id="site2">
+		<a style="display:block" href="#"><div class="site element" id="site2">
+			<img class="thumbnail" src="images/site3.jpg"><br><br>
+			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
+			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
+			<div class="descr"> 
+				<p class="descr-text">
+					Responsive static portfolio for<br>
+					the Italian graphic artist Luvy Jones.<br>
+					Designed by the artist.
+				</p> 
+			</div>
+		</div></a>
+		<a style="display:block" href="carousel/index.html"><div class="site element" id="site3">
 			<img class="thumbnail" src="images/site1.jpg"><br><br>
 			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i></div><br>
 			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
@@ -82,18 +94,6 @@
 					Basic semi-responsive static website<br>
 					with a carousel, using HMTL5, CSS3<br>
 					and Javascript/jQuery.
-				</p> 
-			</div>
-		</div></a>
-		<a style="display:block" href="animated-welcome/index.php"><div class="site element" id="site3">
-			<img class="thumbnail" src="images/site2.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
-			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
-			<div class="descr"> 
-				<p class="descr-text">
-					Animated responsive splash screen using<br>
-					HMTL5, CSS3, Javascript/jQuery<br>
-					and GSAP (Greensock).
 				</p> 
 			</div>
 		</div></a>
