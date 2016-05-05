@@ -73,7 +73,7 @@
 				</p> 
 			</div>
 		</div></a>
-		<a style="display:block" href="#"><div class="site element" id="site2">
+		<a style="display:block" href="luvy-jones/index.php"><div class="site element" id="site2">
 			<img class="thumbnail" src="images/site3.jpg"><br><br>
 			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
 			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
