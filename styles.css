@@ -171,6 +171,7 @@ img.lang-img {
 img.gsap {
     display: inline-block;
     margin: 0 5px;
+    max-height: 450px;
     width: auto;
     padding: 0;
 }
@@ -445,4 +446,64 @@ header>a:hover {
 /* and in case js isn't enabled... */
 .no-js #loader-wrapper {
     display: none;
+}
+
+/* now for responsiveness... */
+
+@media (min-width: 2100px) and (max-width: 3000px) {
+    header {
+        height:80px;
+    }
+    h2 {
+        font-size:2.5em;
+    }
+    .descr {
+        margin: 10px;
+        width: 100%;
+        height: 34%;
+    }
+    .descr-text {
+        font-size: 2.5em;
+    }
+    #gh {
+        font-size:2.5em;
+    }
+}
+@media (min-width: 1600px) and (max-width: 2099px) {
+    header {
+        height:64px;
+    }
+    h2 {
+        font-size:2em;
+    }
+    .descr {
+        margin: 10px;
+        width: 100%;
+        height: 26%;
+    }
+    .descr-text {
+        font-size: 2em;
+    }
+    #gh {
+        font-size:2em;
+    }
+}
+@media (min-width: 1600px) and (max-width: 2099px) {
+    header {
+        height:64px;
+    }
+    h2 {
+        font-size:2em;
+    }
+    .descr {
+        margin: 10px;
+        width: 100%;
+        height: 26%;
+    }
+    .descr-text {
+        font-size: 2em;
+    }
+    #gh {
+        font-size:2em;
+    }
 }

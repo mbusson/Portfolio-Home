@@ -80,8 +80,8 @@
 			<div class="descr"> 
 				<p class="descr-text">
 					Responsive static portfolio for<br>
-					the Italian graphic artist Luvy Jones.<br>
-					Designed by the artist.
+					the Italian graphic artist Ludovica<br>
+					Schiariti. Designed by the artist.
 				</p> 
 			</div>
 		</div></a>

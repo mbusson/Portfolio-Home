@@ -4,7 +4,7 @@ $(document).ready(function(){
  
     setTimeout(function(){
         $('body').addClass('loaded');
-    }, 1);
+    }, 1000);
 
 // --- ELEMENT HOVER BG CHANGE ---
 
