@@ -1,5 +1,5 @@
 # Portfolio-Home
-Code for my Portfolio Website
+Source code for my [Portfolio](http://mbusson.com/) Website.
 
 Credits:
 Mike Byrne for his EPIC work on a JS background-gradient changer:
