@@ -60,6 +60,12 @@ header {
 	box-shadow: 0 1px 1px 0 #000000;
 	z-index: 3;
 }
+#fewd {
+    max-width: 48%;
+}
+#github {
+    max-width: 25%;
+}
 .tagline {
     display:inline-block;
     line-spacing: 0;
