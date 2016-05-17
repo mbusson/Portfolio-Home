@@ -20,7 +20,7 @@
 		<h1 class='mbusson'>Maxence Busson</h1>
 	</div>
 	<header  class="element">
-		<h2>
+		<h2 id="fewd">
 			<div class='tagline'>F</div><!--
 			--><div class='tagline'>r</div><!--
 			--><div class='tagline'>o</div><!--
@@ -47,7 +47,7 @@
 			--><div class='tagline'>n</div><!--
 			--><div class='tagline'>t</div>
 		</h2>
-			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank"><div id="gh" class="icon-forward element">
+			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank" id='github'><div id="gh" class="icon-forward element">
 				View GitHub
 			</div></a>
 	</header>
