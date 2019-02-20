@@ -45,15 +45,15 @@ body {
 	background-color:#EDEEDC;
 	float: left;
 	position: relative;
-	width:23.23%;
+    white-space: nowrap;
 	box-shadow: 0 1px 1px 0 #000000;
 	z-index: 5;
 }
 
 header {
     background-color: #252525;
-	width:76.77%;
-	margin:0 0 0 23.23%;
+	width:100%;
+	margin:0;
 	height:48px;
     color:white;
 	position: relative;
@@ -73,7 +73,7 @@ header {
 
 h1 {
     color: black;
-	padding:13px 20px;
+	padding: 8.5px 16px;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: auto;
@@ -81,8 +81,8 @@ h1 {
 	font-family: Ostrich;
 	font-style: normal; /*removing h1 default values*/
 	font-weight: normal; /*removing h1 default values*/
-	font-size: 2.67vw;
-	letter-spacing:7px;
+	font-size: 24px;
+	letter-spacing: 6px;
 	text-align: center;
 }
 
@@ -112,7 +112,7 @@ h2 {
     bottom: 0;
     margin-left: 2%;
     width: 28%;
-    height: 50%;
+    height: 51%;
     background-color: #252525;
     box-shadow: 2px 1px 1px 0 #000000;
     -webkit-transition: height 0.75s; /* Safari */
@@ -162,22 +162,53 @@ h2 {
 .fa-angle-double-down {
     color: white;
 }
+.using {
+    display: block;
+    margin-bottom: 3em;
+}
+.using h2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.1em;
+    background-color: rgba(160,160,160,0.25);
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
 .languages {
     padding: 0;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    white-space: nowrap;
 }
 img.lang-img {
-    display: inline-block;
+    vertical-align:middle;
     margin: 0 5px;
-    width: 45%;
+    max-height: 10vh;
     height: auto;
     padding: 0;
 }
 img.gsap {
-    display: inline-block;
+    vertical-align:middle;
     margin: 0 5px;
-    max-height: 450px;
+    max-height: 6vh;
+    width: auto;
+    padding: 0;
+}
+img.jq {
+    vertical-align:middle;
+    margin: 0 5px;
+    max-height: 6.5vh;
+    width: auto;
+    padding: 0;
+}
+img.lara {
+    vertical-align:middle;
+    margin: 0 5px;
+    max-height: 10vh;
     width: auto;
     padding: 0;
 }
@@ -227,7 +258,7 @@ img.gsap {
     height: 100%;
     border-radius: 50% 50%;
     background-image: url("images/cp.svg");
-    background-color: #252525;
+    background-color: #EDEEDC;
     background-size: auto 90%;
     background-repeat: no-repeat;
     background-position: center;
@@ -253,8 +284,9 @@ img.gsap {
 .icon-forward:before {
   content: "\f138";
   position: absolute;
-  right: 1em;
-  padding: 0 1px;
+  right: 0.5em;
+  padding: 0 2px;
+  font-size: 1.1em;
   font-family: FontAwesome;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);

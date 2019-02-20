@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 	function startFinalAnimation(){
     	var fa = new TimelineLite();
-    		fa.from('.mbusson', 1, {scale:0.5, ease: Power3.easeOut, y: 0 });
+    		fa.delay(1.25).from('.mbusson', 1.5, {scale:0.5, ease: Power3.easeOut, y: 0 });
 			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.025);
 			fa.from('.netw', 0.5, { top: '-220px'});
 	};

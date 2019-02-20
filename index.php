@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Maxence Busson | Front-End Web & Software Developer</title>
+	<title>Maxence Busson | Full-Stack Web Developer</title>
 	 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 	 <link rel="stylesheet" href="styles.css">
 	 <link rel="stylesheet" href="hover.css">
@@ -22,14 +22,15 @@
 	<header  class="element">
 		<h2 id="fewd">
 			<div class='tagline'>F</div><!--
-			--><div class='tagline'>r</div><!--
-			--><div class='tagline'>o</div><!--
-			--><div class='tagline'>n</div><!--
-			--><div class='tagline'>t</div><!--
+			--><div class='tagline'>u</div><!--
+			--><div class='tagline'>l</div><!--
+			--><div class='tagline'>l</div><!--
 			--><div class='tagline'>-</div><!--
-			--><div class='tagline'>E</div><!--
-			--><div class='tagline'>n</div><!--
-			--><div class='tagline'>d</div><!--
+			--><div class='tagline'>S</div><!--
+			--><div class='tagline'>t</div><!--
+			--><div class='tagline'>a</div><!--
+			--><div class='tagline'>c</div><!--
+			--><div class='tagline'>k</div><!--
 			--><div class='tagline'> </div>
 			<div class='tagline'>W</div><!--
 			--><div class='tagline'>e</div><!--
@@ -47,13 +48,13 @@
 			--><div class='tagline'>n</div><!--
 			--><div class='tagline'>t</div>
 		</h2>
-			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" target="_blank" id='github'><div id="gh" class="icon-forward element">
+			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" id='github'><div id="gh" class="icon-forward element">
 				View GitHub
 			</div></a>
 	</header>
 
 	<div id="network">
-		<a style="display:block" href="javascript:" onclick="window.open('http://codepen.io/mbusson/');" target="_blank">
+		<a style="display:block" href="javascript:" onclick="window.open('http://codepen.io/mbusson/');">
 			<div class="netw element">
 				<div id="cp"></div>
 			</div>
@@ -61,22 +62,24 @@
 	</div>
 
 	<div id="sites">
-		<a style="display:block" href="animated-welcome/index.php"><div class="site element" id="site1">
+		<a style="display:block" ><div class="site element" id="site1">
 			<img class="thumbnail" src="images/site2.jpg"><br><br>
 			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
-			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
+			<div class="using"><h2>Angardia</h2></div>
 			<div class="descr"> 
 				<p class="descr-text">
-					Splash screen animation using<br>
-					HMTL5, CSS3, Javascript/jQuery<br>
-					and GSAP (Greensock).
+					This ongoing one-man project<br>
+					is an online RPG inspired by<br>
+					Pen & Papers.
 				</p> 
 			</div>
+			<div class="using"><h2>Toolbox:</h2></div>
+			<div class="languages" id='lang-tn'><img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="lara" src="images/lara.svg" title="Laravel"><img class="gsap" src="images/gsap.svg" title="GSAP"><img class="jq" src="images/jq.svg" title="jQuery"></div>
 		</div></a>
-		<a style="display:block" href="luvy-jones/index.php"><div class="site element" id="site2">
+		<a style="display:block" href="lunadoz/index.html"><div class="site element" id="site2">
 			<img class="thumbnail" src="images/site3.jpg"><br><br>
 			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
-			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg"><img class="gsap" src="images/gsap.svg"></div>
+			<div class="using"><h2>Luna Doz</h2></div>
 			<div class="descr"> 
 				<p class="descr-text">
 					Responsive static portfolio for<br>
@@ -84,18 +87,22 @@
 					Ludovica Schiariti.
 				</p> 
 			</div>
+			<div class="using"><h2>Toolbox:</h2></div>
+			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="gsap" src="images/gsap.svg" title="GSAP"><img class="jq" src="images/jq.svg" title="jQuery"></div>
 		</div></a>
-		<a style="display:block" href="carousel/index.html"><div class="site element" id="site3">
+		<a style="display:block" href="animated-welcome/index.php"><div class="site element" id="site3">
 			<img class="thumbnail" src="images/site1.jpg"><br><br>
 			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i></div><br>
-			<div class="languages"> <img class="lang-img" src="images/lang.svg"></div>
+			<div class="using"><h2>Cozy Welcome</h2></div>
 			<div class="descr"> 
 				<p class="descr-text">
-					Basic semi-responsive static website<br>
-					with a carousel, using HMTL5, CSS3<br>
-					and Javascript/jQuery.
+					A modern animation based greeting <br>
+					page created during a two hour <br>
+					challenge.
 				</p> 
 			</div>
+			<div class="using"><h2>Toolbox:</h2></div>
+			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="jq" src="images/jq.svg" title="jQuery"></div>
 		</div></a>
 	</div>
 
