@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 	$('.element').mouseleave(function() {
 		$('#bg-ol').toggleClass('white');
-	});   
+	});
 
 // --- ARROWS WHEN UNFOLDED ---
 
@@ -47,19 +47,14 @@ $(document).ready(function(){
 	$('#git').css({'width': hvalue1+'px'});
 	var hvalue2 = $('#cp').height();
 	$('#cp').css({'width': hvalue2+'px'});
-// adapt h to h for language thumbnails
-	var hvalue3 = $('#lang-tn .lang-img').height();
-	$('#lang-tn .gsap').css({
-		height: hvalue3+'px', 
-		width: 'auto'
-	});
 
-// anim
+// --- ANIM ---
 
 	function startFinalAnimation(){
     	var fa = new TimelineLite();
-    		fa.delay(1.25).from('.mbusson', 1.5, {scale:0.5, ease: Power3.easeOut, y: 0 });
-			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.025);
+    		fa.delay(1.25).from('.mbusson', 1.25, {scale:0.5, ease: Power3.easeOut, y: 0 });
+    		fa.to('#fewd', 0.5, {opacity:1, ease: Power0.easeInOut});
+			fa.staggerFrom('.tagline', 0.2, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.025);
 			fa.from('.netw', 0.5, { top: '-220px'});
 	};
 
@@ -76,7 +71,7 @@ $(document).ready(function(){
 		})
 	});
 
-// thumbnail effects
+// --- Thumbnails ---
 
 	$('#sites .site').mouseenter(function() {
 		$(this).children('.thumbnail').addClass('brighten');
@@ -85,7 +80,15 @@ $(document).ready(function(){
 		$(this).children('.thumbnail').removeClass('brighten');
 	});
 
+// --- BADGE ---
 
+	$('div#badge, #logo').hover(
+	  function(){
+	    $('#badge').css('top', '48px');
+	  }, function() {
+	    $('#badge').css('top', '0');
+	  }
+	);
 
 // --- GRADIENT ---
 

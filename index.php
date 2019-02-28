@@ -16,6 +16,13 @@
 	<div id="gradient"></div>
 	<div id="bg-ol"></div>
 
+	<div id="badge" class="element">
+	  <div>
+	  	<a class="btn sfx" href="mailto:maxencebusson@gmail.com">
+	  		Get in touch!
+	  	</a>
+	  </div>
+	</div>
 	<div id="logo" class="element">
 		<h1 class='mbusson'>Maxence Busson</h1>
 	</div>
@@ -48,7 +55,7 @@
 			--><div class='tagline'>n</div><!--
 			--><div class='tagline'>t</div>
 		</h2>
-			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" id='github'><div id="gh" class="icon-forward element">
+			<a style="display:block" href="javascript:" onclick="window.open('https://github.com/mbusson/Portfolio-Home');" id='github' class="element"><div id="gh" class="icon-forward">
 				View GitHub
 			</div></a>
 	</header>
@@ -62,48 +69,78 @@
 	</div>
 
 	<div id="sites">
-		<a style="display:block" ><div class="site element" id="site1">
-			<img class="thumbnail" src="images/site2.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i></div><br>
-			<div class="using"><h2>Angardia</h2></div>
-			<div class="descr"> 
-				<p class="descr-text">
-					This ongoing one-man project<br>
-					is an online RPG inspired by<br>
-					Pen & Papers.
-				</p> 
+		<a style="display:block" >
+			<div class="site element vert-wrap" id="site1">
+				<div>
+					<img class="thumbnail" src="images/site2.jpg"><br><br>
+					<div class="arrow-wrap">
+						<i class="fa fa-angle-double-up" id="ar2" aria-hidden="true"></i>
+					</div><br>
+				</div>
+				<div class="desc_box">
+					<div class="using"><h2>Angardia</h2></div>
+					<div class="descr"> 
+						<p class="descr-text">
+							This ongoing one-man project 
+							is an old-school online RPG 
+							inspired by Pen & Papers.
+						</p> 
+					</div><br>
+				</div><br>
+				<div class="toolbox">
+					<div class="using"><h2>Toolbox:</h2></div>
+					<div class="languages" id='lang-tn'><img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="lara" src="images/lara.svg" title="Laravel"><img class="gsap" src="images/gsap.svg" title="GSAP"><img class="jq" src="images/jq.svg" title="jQuery"></div>
+				</div>
 			</div>
-			<div class="using"><h2>Toolbox:</h2></div>
-			<div class="languages" id='lang-tn'><img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="lara" src="images/lara.svg" title="Laravel"><img class="gsap" src="images/gsap.svg" title="GSAP"><img class="jq" src="images/jq.svg" title="jQuery"></div>
-		</div></a>
-		<a style="display:block" href="lunadoz/index.html"><div class="site element" id="site2">
-			<img class="thumbnail" src="images/site3.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i></div><br>
-			<div class="using"><h2>Luna Doz</h2></div>
-			<div class="descr"> 
-				<p class="descr-text">
-					Responsive static portfolio for<br>
-					the Italian graphic artist<br>
-					Ludovica Schiariti.
-				</p> 
+		</a>
+		<a style="display:block" href="lunadoz/index.html">
+			<div class="site element vert-wrap" id="site2">
+				<div>
+					<img class="thumbnail" src="images/site3.jpg"><br><br>
+					<div class="arrow-wrap">
+						<i class="fa fa-angle-double-up" id="ar1" aria-hidden="true"></i>
+					</div><br>
+				</div>
+				<div class="desc_box">
+					<div class="using"><h2>Luna Doz</h2></div>
+					<div class="descr"> 
+						<p class="descr-text">
+							Responsive static portfolio for 
+							the Italian graphic artist 
+							Ludovica Schiariti.
+						</p> 
+					</div><br>
+				</div><br>
+				<div class="toolbox">
+					<div class="using"><h2>Toolbox:</h2></div>
+					<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="gsap" src="images/gsap.svg" title="GSAP"><img class="jq" src="images/jq.svg" title="jQuery"></div>
+				</div>
 			</div>
-			<div class="using"><h2>Toolbox:</h2></div>
-			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="gsap" src="images/gsap.svg" title="GSAP"><img class="jq" src="images/jq.svg" title="jQuery"></div>
-		</div></a>
-		<a style="display:block" href="animated-welcome/index.php"><div class="site element" id="site3">
-			<img class="thumbnail" src="images/site1.jpg"><br><br>
-			<div class="arrow-wrap"><i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i></div><br>
-			<div class="using"><h2>Cozy Welcome</h2></div>
-			<div class="descr"> 
-				<p class="descr-text">
-					A modern animation based greeting <br>
-					page created during a two hour <br>
-					challenge.
-				</p> 
+		</a>
+		<a style="display:block" href="animated-welcome/index.php">
+			<div class="site element vert-wrap" id="site3">
+				<div>
+					<img class="thumbnail" src="images/site1.jpg"><br><br>
+					<div class="arrow-wrap">
+						<i class="fa fa-angle-double-up" id="ar3" aria-hidden="true"></i>
+					</div><br>
+				</div>
+				<div class="desc_box">
+					<div class="using"><h2>Cozy Welcome</h2></div>
+					<div class="descr"> 
+						<p class="descr-text">
+							A modern animation based greeting 
+							page created during a two hour 
+							challenge.
+						</p> 
+					</div><br>
+				</div><br>
+				<div class="toolbox">
+					<div class="using"><h2>Toolbox:</h2></div>
+					<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="jq" src="images/jq.svg" title="jQuery"></div>
+				</div>
 			</div>
-			<div class="using"><h2>Toolbox:</h2></div>
-			<div class="languages" id='lang-tn'> <img class="lang-img" src="images/lang.svg" title="HTML5 & CSS3"><img class="jq" src="images/jq.svg" title="jQuery"></div>
-		</div></a>
+		</a>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>

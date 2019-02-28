@@ -8,7 +8,7 @@ $(document).keydown(function (e) {
         	var overlay = $('<div id="cricri"> </div>');
 			overlay.appendTo(document.body);
 	        $('#cricri').fadeIn( 'fast', function() {
-				    var image = $('<img src="images/cricri.jpg" class="cricri">');
+				    var image = $('<img src="images/cricri.jpg" class="cricri" >');
 		        	image.appendTo( $('#cricri') );
 		        	$('#cricri .cricri').fadeIn('slow');
 				});
